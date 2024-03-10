@@ -1,7 +1,7 @@
 const addon = require("./build/Release/addon");
 
 const SayHello = () => {
-  addon.SayHello();
+  return addon.SayHello();
 };
 
 module.exports = { SayHello };
